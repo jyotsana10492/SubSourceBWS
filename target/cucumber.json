@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T10:51:35.651Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13501000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.navigate_to_Subsource()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check Company deatails",
+        "description": "",
+        "id": "to-test-the-company-functionality-of-subsource;check-company-deatails",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2491000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to the company page",
+            "match": {
+              "location": "Parallel.CompanyTest.user_navigate_to_the_company_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2807000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the valid creadentails",
+            "match": {
+              "location": "Parallel.CompanyTest.user_enter_the_valid_creadentails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Save Button",
+            "match": {
+              "location": "Parallel.CompanyTest.click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2310000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user delete the company from subsource",
+            "match": {
+              "location": "Parallel.CompanyTest.user_delete_the_company_from_subsource()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the Company functionality of Subsource",
+    "description": "",
+    "id": "to-test-the-company-functionality-of-subsource",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Parallel/Company.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T10:51:35.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10845000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.navigate_to_Subsource()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check Shop deatails",
+        "description": "",
+        "id": "to-test-the-shoppage-functionality-of-subsource;check-shop-deatails",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 757000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6271000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to the Shop page",
+            "match": {
+              "location": "Parallel.ShopTest.user_navigate_to_the_shop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3449000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the valid creadentails Of Shop page",
+            "match": {
+              "location": "Parallel.ShopTest.user_enter_the_valid_creadentails_of_shop_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Shop page Save Button",
+            "match": {
+              "location": "Parallel.ShopTest.click_on_shop_page_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8473000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user delete the Shop from subsource",
+            "match": {
+              "location": "Parallel.ShopTest.user_delete_the_shop_from_subsource()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the Shoppage functionality of Subsource",
+    "description": "",
+    "id": "to-test-the-shoppage-functionality-of-subsource",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Parallel/Shop.feature",
+    "tags": []
+  }
+]

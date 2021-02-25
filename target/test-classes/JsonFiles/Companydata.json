@@ -1,0 +1,38 @@
+{
+	"companydetails": [
+		{
+			"companyname": "Test@1234",
+			"EIN": "245658785",
+			"Address": "ZirakPur",
+			"Address2": "Chandigrah",
+			"City": "punjab",
+			"State": "Alaska",
+			"ZipCode": "5465154",
+			"PhoneNumber": "9701025878",
+			"mail": "busines56@gmail.com",
+			"payroll": "9701155"
+		}
+	],
+	"shopDetails": [
+		{
+			"shop": "12-020",
+			"email": "bwsxyz@gmail.com",
+			"region": "Central Region",
+			"address1": "ascsa",
+			"addess2": "sdfsavv",
+			"city": "caliasc",
+			"state": "Alabama",
+			"zipCode": "45623",
+			"rent": "546",
+			"cost": "451",
+			"food_Cost_Distributor": "Saladinos",
+			"company": "Children Hospital Subs LLC",
+			"new_Hire": "ascb@gmail.com",
+			"weekly_Schedule": "asfhb@gmail.com",
+			"engagement": "fsaxvc@gmail.com",
+			"BGC": "sancbs@gmail.com",
+			"E-Verify": "afaVhb@gmail.com",
+			"applicant": "abdzfn@gmail.com"
+		}
+	]
+}
